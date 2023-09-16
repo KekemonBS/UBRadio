@@ -7,7 +7,7 @@ body {
 #canvas {
     position: absolute;
     z-index: 0;
-    
+
     width: 100vw;
     height: 100vh;
 }
@@ -17,7 +17,7 @@ body {
     position: absolute;
     bottom: 0;
     z-index: 1;
-    
+
     --scale-factor: 0.7;
     --size: 70vw;
     width: calc(var(--size)/1*var(--scale-factor));
