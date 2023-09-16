@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>UBRadio</title>
+  </head>
+  <body>
+    
+    <div class="player">
+      <button class="blobby">
+        <img src="css/svgs/play.svg"/>
+      </button>
+      <button class="blobby">
+        <img src="css/svgs/pause.svg"/>
+      </button>
+      <button class="blobby" id="audio">
+        <img src="css/svgs/volume-off.svg"/>
+      </button>
+      <div class="volume-slider-container">
+        <input type="range" class="volume-slider" max="100" value="100" step="5">
+      </div>
+    </div>
+
+    <script src="js/utils/jquery-3.7.0.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
+
+
